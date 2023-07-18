@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>forms css</title>
+    <style>
+      select {
+        display: inline-block;
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      input[type="submit"] {
+        width: 100%;
+        background-color: rgb(111, 174, 111);
+        color: white;
+        padding: 12px 20px;
+        margin: 8px 0;
+        border-radius: 4px;
+        cursor: pointer;
+        border: none;
+      }
+      div {
+        background-color: rgb(240, 240, 240);
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <label for="country">Country</label>
+      <select name="country" id="country">
+        <option value="morocco">Morocco</option>
+        <option value="algeria">Algeria</option>
+        <option value="tunisia">Tunisia</option>
+      </select>
+      <input type="submit" value="Submit" />
+    </div>
+  </body>
+</html>
